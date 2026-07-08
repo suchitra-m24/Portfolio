@@ -1,70 +1,28 @@
-# Suchitra M — Developer Portfolio
+# Suchitra M — Portfolio
 
-A premium, animated developer portfolio built with Next.js 15 (App Router), TypeScript, Tailwind CSS, and Framer Motion.
+My personal developer portfolio, showcasing my projects, skills, and background as an AI & Machine Learning engineering student.
 
-## Stack
+🔗 **Live site:** [add your Vercel link here once deployed]
 
-- **Next.js 15** (App Router, React 18)
-- **TypeScript**
-- **Tailwind CSS** — custom indigo / blue / purple design tokens, no dark mode
-- **Framer Motion** — scroll reveals, hover micro-interactions, floating elements
-- **Lucide React** — icon set
+## About
 
-## Getting started
+Hi, I'm Suchitra M — an AI & Machine Learning engineering student passionate about building full-stack web applications and solving real-world problems through technology. This portfolio highlights my projects, technical skills, education, and achievements.
 
-```bash
-npm install
-npm run dev
-```
+## What's inside
 
-Open [http://localhost:3000](http://localhost:3000).
+- **About** — a short introduction
+- **Skills** — Java, Spring Boot, React, MySQL, and more
+- **Projects** — Smart Waste Management System, Job Portal
+- **Education** — academic background
+- **Achievements** — hackathon and competitive programming highlights
+- **Contact** — email, phone, LinkedIn, GitHub
 
-> Note: this project uses `next/font/google` (Geist) which fetches fonts at build time and requires an internet connection. This works out of the box on Vercel and any machine with normal network access.
+## Built with
 
-## Editing content
+Next.js, TypeScript, Tailwind CSS, Framer Motion
 
-All personal content — name, roles, bio, skills, projects, education, and contact links — lives in one place:
+## Contact
 
-```
-lib/data.ts
-```
-
-Update that file to change any text on the site without touching component code.
-
-## Replacing the résumé
-
-The "Download Resume" button in the hero links to `public/resume.pdf`, currently a placeholder. Replace that file with your real résumé (keep the filename, or update `resumeUrl` in `lib/data.ts`).
-
-## Project structure
-
-```
-app/
-  layout.tsx       Root layout, fonts, metadata/SEO
-  page.tsx          Assembles all sections
-  globals.css        Design tokens, glass/gradient utilities
-  icon.svg           Favicon
-  loading.tsx        Route loading state
-components/
-  Navbar.tsx          Sticky nav, scroll-spy, mobile menu
-  Hero.tsx             Headline, CTAs, animated profile card
-  About.tsx            Bio + snapshot stats
-  Skills.tsx           Animated skill category cards
-  Projects.tsx         Project cards with hover overlays
-  Education.tsx        Timeline-style education entry
-  Contact.tsx          Contact link cards
-  Footer.tsx            Social links + copyright
-  ScrollProgress.tsx    Top scroll progress bar
-  AmbientBackground.tsx Grid + animated gradient blobs, mouse-follow glow
-  AnimatedCounter.tsx    Count-up numbers
-  TypingText.tsx         Typing/deleting role rotator
-  Reveal.tsx              Scroll-in-view fade/slide wrapper
-  SectionHeading.tsx      Shared eyebrow/title/description block
-lib/
-  data.ts             Single source of truth for all site content
-```
-
-## Deploying to Vercel
-
-1. Push this project to a GitHub repository.
-2. Import the repo at [vercel.com/new](https://vercel.com/new).
-3. Vercel auto-detects Next.js — no configuration needed. Deploy.
+- Email: suchithra2405@gmail.com
+- LinkedIn: [linkedin.com/in/suchitra-m24](https://www.linkedin.com/in/suchitra-m24)
+- GitHub: [github.com/suchitra-m24](https://github.com/suchitra-m24)
